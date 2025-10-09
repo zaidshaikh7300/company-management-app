@@ -1,0 +1,195 @@
+/* body{ 
+    font-family: Arial; margin: 0; padding: 0; 
+}
+header{
+    background: yellow; 
+    color: white; padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+header button{ 
+    margin-right: 10px; padding: 8px 12px; cursor: pointer; 
+}
+.buttons{
+   margin-top: 10px;
+   margin-left: 1125px;
+}
+#list{ 
+    list-style: none; padding: 0 20px; 
+}
+#list li
+{ border-bottom: 1px solid #ccc; padding: 6px 0; 
+}
+form{ 
+    margin: 20px; padding: 10px; border: 1px solid #aaa; width: 300px; border-radius: 5px; 
+}
+.hidden{ 
+    display: none; 
+}
+form input{ 
+    width: 95%; padding: 6px; margin-bottom: 8px; 
+}
+#dataForm{
+    background-color: yellow;
+    margin-left: 500px;
+}
+
+header button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+} */
+
+
+
+
+
+
+
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: yellow;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    header button {
+      padding: 10px 18px;
+      border: none;
+      background: white;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    header button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    /* ---------- Action Buttons ---------- */
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .buttons button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      background: #ffcc00;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .buttons button:hover {
+      background: black;
+      color: white;
+    }
+
+    /* ---------- Form Section ---------- */
+    form {
+      margin: 30px auto;
+      padding: 20px;
+      border: 1px solid #aaa;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 400px;
+      background-color: yellow;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      margin-right: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: black;
+      color: white;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    /* ---------- List ---------- */
+    #list {
+      list-style: none;
+      padding: 0 20px;
+      margin-top: 20px;
+    }
+
+    #list li {
+      border-bottom: 1px solid #ccc;
+      padding: 8px 0;
+    }
+
+    /* ---------- Responsive Media Queries ---------- */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      .buttons {
+        margin-left: 0;
+      }
+
+      form {
+        width: 95%;
+      }
+
+      header button, .buttons button {
+        width: 90%;
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header button, .buttons button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+      }
+
+      form {
+        padding: 15px;
+        width: 95%;
+      }
+    }
+
+
+
+
+
+
+
+
